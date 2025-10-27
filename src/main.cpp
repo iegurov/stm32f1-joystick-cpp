@@ -25,7 +25,7 @@ int main()
     uart3.init(USART3, 9600);
     uart3.print(TERM_CLEAR);
 
-    volatile int8_t value;
+    int8_t value;
 
     while(1)
     {
@@ -44,3 +44,4 @@ int main()
     return 0;
 
 }
+
